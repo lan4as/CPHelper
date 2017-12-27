@@ -30,17 +30,12 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ucDirectoryCopy1 = new CPHelper.ucHelper.ucDirectoryCopy();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnRefresh = new System.Windows.Forms.Button();
-            this.btnAddCategory = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ucDailyWork1 = new CPHelper.ucHelper.ucDailyWork();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -51,7 +46,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(909, 699);
+            this.tabControl1.Size = new System.Drawing.Size(928, 496);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -65,21 +60,6 @@
             this.tabPage1.Text = "Directory Copy&Paste";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.btnAddCategory);
-            this.tabPage2.Controls.Add(this.btnRefresh);
-            this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Controls.Add(this.monthCalendar1);
-            this.tabPage2.Controls.Add(this.listView1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(901, 673);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "OneDay Work";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // ucDirectoryCopy1
             // 
             this.ucDirectoryCopy1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -88,54 +68,30 @@
             this.ucDirectoryCopy1.Size = new System.Drawing.Size(895, 667);
             this.ucDirectoryCopy1.TabIndex = 0;
             // 
-            // listView1
+            // tabPage2
             // 
-            this.listView1.Location = new System.Drawing.Point(19, 223);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(220, 442);
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.tabPage2.Controls.Add(this.ucDailyWork1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(920, 470);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "OneDay Work";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // monthCalendar1
+            // ucDailyWork1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(19, 12);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dataGridView1.Location = new System.Drawing.Point(251, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(647, 667);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.Location = new System.Drawing.Point(178, 179);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(61, 38);
-            this.btnRefresh.TabIndex = 3;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseVisualStyleBackColor = true;
-            // 
-            // btnAddCategory
-            // 
-            this.btnAddCategory.Location = new System.Drawing.Point(19, 179);
-            this.btnAddCategory.Name = "btnAddCategory";
-            this.btnAddCategory.Size = new System.Drawing.Size(61, 38);
-            this.btnAddCategory.TabIndex = 4;
-            this.btnAddCategory.Text = "Add";
-            this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.ucDailyWork1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucDailyWork1.Location = new System.Drawing.Point(3, 3);
+            this.ucDailyWork1.Name = "ucDailyWork1";
+            this.ucDailyWork1.Size = new System.Drawing.Size(914, 464);
+            this.ucDailyWork1.TabIndex = 0;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 699);
+            this.ClientSize = new System.Drawing.Size(928, 496);
             this.Controls.Add(this.tabControl1);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -144,7 +100,6 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -155,11 +110,7 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private ucHelper.ucDirectoryCopy ucDirectoryCopy1;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button btnRefresh;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btnAddCategory;
+        private ucHelper.ucDailyWork ucDailyWork1;
     }
 }
 

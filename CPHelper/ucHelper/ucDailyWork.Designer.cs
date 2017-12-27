@@ -38,7 +38,7 @@
             // 
             // btnAddCategory
             // 
-            this.btnAddCategory.Location = new System.Drawing.Point(36, 176);
+            this.btnAddCategory.Location = new System.Drawing.Point(3, 172);
             this.btnAddCategory.Name = "btnAddCategory";
             this.btnAddCategory.Size = new System.Drawing.Size(61, 38);
             this.btnAddCategory.TabIndex = 9;
@@ -47,7 +47,7 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(195, 176);
+            this.btnRefresh.Location = new System.Drawing.Point(162, 172);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(61, 38);
             this.btnRefresh.TabIndex = 8;
@@ -56,25 +56,29 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dataGridView1.Location = new System.Drawing.Point(268, 0);
+            this.dataGridView1.Location = new System.Drawing.Point(234, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(647, 627);
+            this.dataGridView1.Size = new System.Drawing.Size(654, 484);
             this.dataGridView1.TabIndex = 7;
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(36, 9);
+            this.monthCalendar1.Location = new System.Drawing.Point(3, 5);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 5;
             // 
             // listView1
             // 
-            this.listView1.Location = new System.Drawing.Point(36, 220);
+            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.listView1.Location = new System.Drawing.Point(3, 216);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(220, 442);
+            this.listView1.Size = new System.Drawing.Size(220, 258);
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -89,7 +93,7 @@
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.listView1);
             this.Name = "ucDailyWork";
-            this.Size = new System.Drawing.Size(915, 627);
+            this.Size = new System.Drawing.Size(888, 484);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
