@@ -44,6 +44,7 @@
             this.btnAddCategory.TabIndex = 9;
             this.btnAddCategory.Text = "Add";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // btnRefresh
             // 

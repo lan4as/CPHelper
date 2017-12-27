@@ -16,5 +16,10 @@ namespace CPHelper.ucHelper
         {
             InitializeComponent();
         }
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
