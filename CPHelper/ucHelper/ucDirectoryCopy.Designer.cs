@@ -73,6 +73,7 @@
             this.button3.TabIndex = 32;
             this.button3.Text = "붙여넣기";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnSave
             // 
@@ -82,6 +83,7 @@
             this.btnSave.TabIndex = 31;
             this.btnSave.Text = "경로 저장";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // button1
             // 
@@ -91,6 +93,7 @@
             this.button1.TabIndex = 30;
             this.button1.Text = "붙여넣기";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ucDirectoryCopy
             // 
