@@ -55,7 +55,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(901, 673);
+            this.tabPage1.Size = new System.Drawing.Size(920, 470);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Directory Copy&Paste";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             this.ucDirectoryCopy1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucDirectoryCopy1.Location = new System.Drawing.Point(3, 3);
             this.ucDirectoryCopy1.Name = "ucDirectoryCopy1";
-            this.ucDirectoryCopy1.Size = new System.Drawing.Size(895, 667);
+            this.ucDirectoryCopy1.Size = new System.Drawing.Size(914, 464);
             this.ucDirectoryCopy1.TabIndex = 0;
             // 
             // tabPage2
@@ -76,7 +76,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(920, 470);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "OneDay Work";
+            this.tabPage2.Text = "Daily Work";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // ucDailyWork1
